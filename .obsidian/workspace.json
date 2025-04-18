@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "5083794c2bec45ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c6789aec3b18307",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ca623423ec0bfa1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Artificial Intelantgent/人工智慧導論.canvas",
+                "viewState": {
+                  "x": -794,
+                  "y": 173.5476221498369,
+                  "zoom": -2.507192035853905
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "人工智慧導論"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03e83e89232a2b45",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f2c17aee0f39f88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44af467c863af927",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "58fe42b8d521f75c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4d84fde4a20588c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4175ef61c28325ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8698076adfadbba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e67864419b7dce9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Artificial Intelantgent/人工智慧導論.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 人工智慧導論"
+            }
+          },
+          {
+            "id": "40e6ba2d51c535f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "69f8b222639935c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ec493d056b8fa0fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "2ca623423ec0bfa1",
+  "lastOpenFiles": [
+    "Artificial Intelantgent/1_gylmY6uHbOAabYnOzhTZkA.png",
+    "Untitled.canvas",
+    "Artificial Intelantgent",
+    "Untitled.md",
+    "Artificial Intelantgent/人工智慧導論.canvas",
+    "Artificial Intelantgent/neural-net.png",
+    "Artificial Intelantgent/autoencoders.png",
+    "Artificial Intelantgent/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
+    "Artificial Intelantgent/20151279IdTypfubWX.png",
+    "Artificial Intelantgent/2025-04-16.md",
+    "人工智慧導論.md",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
