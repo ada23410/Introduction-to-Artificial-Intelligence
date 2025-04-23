@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Artificial Intelantgent/人工智慧導論.canvas",
+                "file": "Artificial intelligence/人工智慧導論.canvas",
                 "viewState": {
-                  "x": -794,
-                  "y": 173.5476221498369,
-                  "zoom": -2.507192035853905
+                  "x": -250.6723666748374,
+                  "y": 361.07830834032893,
+                  "zoom": -1.8782236939868096
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -173,16 +173,16 @@
   },
   "active": "2ca623423ec0bfa1",
   "lastOpenFiles": [
-    "Artificial Intelantgent/1_gylmY6uHbOAabYnOzhTZkA.png",
+    "Artificial intelligence/1_gylmY6uHbOAabYnOzhTZkA.png",
     "Untitled.canvas",
-    "Artificial Intelantgent",
+    "Artificial intelligence",
     "Untitled.md",
-    "Artificial Intelantgent/人工智慧導論.canvas",
-    "Artificial Intelantgent/neural-net.png",
-    "Artificial Intelantgent/autoencoders.png",
-    "Artificial Intelantgent/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
-    "Artificial Intelantgent/20151279IdTypfubWX.png",
-    "Artificial Intelantgent/2025-04-16.md",
+    "Artificial intelligence/人工智慧導論.canvas",
+    "Artificial intelligence/neural-net.png",
+    "Artificial intelligence/autoencoders.png",
+    "Artificial intelligence/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
+    "Artificial intelligence/20151279IdTypfubWX.png",
+    "Artificial intelligence/2025-04-16.md",
     "人工智慧導論.md",
     "Welcome.md",
     "create a link.md"
