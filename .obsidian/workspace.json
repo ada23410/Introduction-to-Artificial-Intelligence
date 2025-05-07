@@ -11,17 +11,14 @@
             "id": "3d9a5d0511d14c7a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Artificial intelligence/人工智慧導論.canvas",
-                "viewState": {
-                  "x": -794,
-                  "y": 438,
-                  "zoom": -2.8782236939868096
-                }
+                "file": "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "人工智慧導論"
+              "icon": "lucide-file",
+              "title": "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】"
             }
           }
         ]
@@ -173,10 +170,11 @@
   },
   "active": "3d9a5d0511d14c7a",
   "lastOpenFiles": [
+    "Artificial intelligence/人工智慧導論.canvas",
+    "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
     "未命名.canvas",
     "2025-05-07.md",
     "Artificial intelligence/2025-04-16.md",
-    "Artificial intelligence/人工智慧導論.canvas",
     "Artificial intelligence/1_gylmY6uHbOAabYnOzhTZkA.png",
     "Untitled.canvas",
     "Artificial intelligence",
