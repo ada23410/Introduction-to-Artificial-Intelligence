@@ -8,17 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d9a5d0511d14c7a",
+            "id": "2c437af05f7aaed1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
-                "mode": "source",
-                "source": false
+                "file": "n8n 學習筆記/n8n課程規劃.canvas",
+                "viewState": {
+                  "x": 917.5,
+                  "y": -20,
+                  "zoom": -0.7416572894909284
+                }
               },
-              "icon": "lucide-file",
-              "title": "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】"
+              "icon": "lucide-layout-dashboard",
+              "title": "n8n課程規劃"
             }
           }
         ]
@@ -160,6 +163,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:建立新的 base": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -168,21 +172,30 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "3d9a5d0511d14c7a",
+  "active": "44af467c863af927",
   "lastOpenFiles": [
-    "Artificial intelligence/人工智慧導論.canvas",
-    "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
-    "未命名.canvas",
+    "Fintech Learning/What is Banking?.md",
+    "Fintech Learning/What is Digital Banking?.md",
+    "未命名.base",
+    "n8n 學習筆記/n8n課程規劃.canvas",
+    "Fintech Learning",
+    "人工智慧導論/余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
+    "人工智慧導論/image/neural-net.png",
+    "人工智慧導論/image",
+    "人工智慧導論/人工智慧導論.canvas",
+    "n8n 學習筆記",
+    "人工智慧導論/image/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
+    "人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png",
+    "人工智慧導論/image/autoencoders.png",
+    "Artificial intelligence/下載.png",
+    "Artificial intelligence/ChatGPT Image 2025年3月30日 下午07_35_42.png",
+    "人工智慧導論/image/20151279IdTypfubWX.png",
+    "Turnitin.md",
     "2025-05-07.md",
     "Artificial intelligence/2025-04-16.md",
-    "Artificial intelligence/1_gylmY6uHbOAabYnOzhTZkA.png",
     "Untitled.canvas",
-    "Artificial intelligence",
+    "人工智慧導論",
     "Untitled.md",
-    "Artificial intelligence/neural-net.png",
-    "Artificial intelligence/autoencoders.png",
-    "Artificial intelligence/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
-    "Artificial intelligence/20151279IdTypfubWX.png",
     "人工智慧導論.md",
     "Welcome.md",
     "create a link.md"

@@ -75,7 +75,6 @@
 		{"id":"c2416d38e0d7c44c","type":"text","text":"# 人工智慧（Artificial Intelengent）","x":-607,"y":360,"width":498,"height":65,"color":"#334bff"},
 		{"id":"98321a27c916444c","type":"text","text":"**風格轉換（Style Transfer）**","x":-3111,"y":1800,"width":300,"height":60,"color":"2"},
 		{"id":"83e31b8d76501c38","type":"text","text":"- 輸入為整張圖片，輸出為一個類別標籤\n    \n- 代表模型：LeNet、AlexNet、VGG、ResNet","x":-3780,"y":1211,"width":303,"height":129,"color":"1"},
-		{"id":"c8c137e6ac989f91","type":"text","text":"- 像素級別預測，為每個像素分配類別標籤\n    \n- 分類：\n    \n    - Semantic Segmentation（語意分割）：如 FCN、U-Net\n        \n    - Instance Segmentation（實例分割）：如 Mask R-CNN","x":-4120,"y":1252,"width":303,"height":275,"color":"1"},
 		{"id":"7759421fb27f00d5","type":"text","text":"- 將一張影像轉成另一種樣貌（如黑白 → 彩色、夜晚 → 白天）\n    \n- 模型範例：GAN、Pix2Pix、CycleGAN（CNN 作為生成器或鑑別器）","x":-3780,"y":1463,"width":303,"height":194,"color":"1"},
 		{"id":"dd8b2474ae9b093b","type":"text","text":"- 預測身體關節位置，多用於人體動作識別、健身偵測等\n    \n- 代表模型：OpenPose","x":-3780,"y":1687,"width":303,"height":93,"color":"1"},
 		{"id":"a38b1415f552ef0e","type":"text","text":"- 輸入圖片，輸出一段自然語言敘述\n    \n- 通常將 CNN（圖像編碼器）與 RNN 或 Transformer（語言解碼器）結合","x":-3780,"y":1800,"width":309,"height":160,"color":"1"},
@@ -93,11 +92,10 @@
 		{"id":"b11e0f41d756b498","type":"text","text":"我們希望這就是第 i 筆資料對應的正確答案 P_i (P_i=y_i)，但通常都不會剛好一致，那麼我們就想知道差多少。這個計算函數學習機所學到的函數和真正訓練資料裡差異有多少的函數，叫做損失函數（loss function），功能是用來計算誤差。","x":480,"y":-580,"width":300,"height":225},
 		{"id":"fbb843ecfdd49c95","type":"text","text":"#什麼是泛化能力？\n**泛化能力**指的是：模型在**未見過的新資料**上仍然能做出**正確預測**的能力。\n\n|狀況|訓練資料表現|測試資料表現|泛化能力|\n|---|---|---|---|\n|權重不足（欠擬合）|❌ 差|❌ 差|差（學不會）|\n|正常學習|✅ 好|✅ 好|✅ 佳|\n|過度記憶（過擬合）|✅ 極好|❌ 差|❌ 差（只記熟的）","x":-2320,"y":-1160,"width":470,"height":338},
 		{"id":"3042bb0e72bd8a62","type":"text","text":"#什麼是梯度（Gradient）？\n> **梯度就是一種導數（derivative）**，表示某個函數在某點變化的方向與速率。\n\n你可以把它想成：\n\n- **在山坡上走路時，坡度最大方向就是梯度的方向**\n    \n- 梯度 = **哪個方向變化最快，變化多快**","x":-2236,"y":-796,"width":386,"height":276},
-		{"id":"84a93d5b0984a264","type":"file","file":"Artificial intelligence/neural-net.png","x":-2189,"y":-1847,"width":339,"height":167},
-		{"id":"2a1215f36bc513cc","type":"file","file":"Artificial intelligence/autoencoders.png","x":-2079,"y":-1665,"width":229,"height":240},
-		{"id":"2653fbe8750f504d","type":"file","file":"Artificial intelligence/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png","x":-2250,"y":-1400,"width":398,"height":119},
-		{"id":"a4589deeb58a7e03","type":"file","file":"Artificial intelligence/1_gylmY6uHbOAabYnOzhTZkA.png","x":-2680,"y":-1281,"width":400,"height":102},
-		{"id":"9401f1af91930aa3","type":"file","file":"Artificial intelligence/20151279IdTypfubWX.png","x":920,"y":-1891,"width":400,"height":164},
+		{"id":"84a93d5b0984a264","type":"file","file":"人工智慧導論/image/neural-net.png","x":-2189,"y":-1847,"width":339,"height":167},
+		{"id":"2a1215f36bc513cc","type":"file","file":"人工智慧導論/image/autoencoders.png","x":-2079,"y":-1665,"width":229,"height":240},
+		{"id":"2653fbe8750f504d","type":"file","file":"人工智慧導論/image/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png","x":-2250,"y":-1400,"width":398,"height":119},
+		{"id":"9401f1af91930aa3","type":"file","file":"人工智慧導論/image/20151279IdTypfubWX.png","x":920,"y":-1891,"width":400,"height":164},
 		{"id":"b04340d63acc3d3c","type":"text","text":" #機器學習中怎麼用梯度？\n\n1. 模型輸入資料 → 得到預測結果\n    \n2. 計算與真實答案的差距（Loss）\n    \n3. 對模型中的**每個參數（例如權重 w）**，算出它對 Loss 的**偏導數（∂Loss/∂w）** → 這就是梯度\n    \n4. 沿著梯度的**相反方向**更新參數 → 因為我們要最小化 Loss（下降）\n    \n5. 重複以上步驟，直到 Loss 很小\n    \n\n這個過程稱為 **梯度下降法（Gradient Descent）**","x":-2880,"y":-838,"width":526,"height":318},
 		{"id":"508e726832a67223","type":"text","text":"- 使用 `ImageDataGenerator` 進行：\n    \n    - 旋轉、平移、剪裁、縮放、翻轉、亮度變化等\n        \n    - 擴充訓練資料集、避免過擬合","x":-3165,"y":-494,"width":345,"height":158,"color":"2"},
 		{"id":"a750cfe4955a8bed","type":"text","text":"#什麼是 Overfitting（過擬合）？\n\n> **過擬合就是模型「記太多」，記住了訓練資料的細節甚至雜訊，反而在新資料上表現不好 對照三種學習情況：**\n\n|狀況|訓練表現|測試表現|說明|\n|---|---|---|---|\n|欠擬合（Underfitting）|差|差|模型太簡單，學不到資料模式|\n|恰當擬合（Good Fit）|好|好|模型有學到真正規律|\n|**過擬合（Overfitting）**|**非常好**|**很差**|模型記住資料細節與雜訊|","x":1400,"y":-1891,"width":600,"height":351},
@@ -158,7 +156,8 @@
 		{"id":"0d30d6219e0fcb65","type":"text","text":"- **Encoder-Decoder 架構**：\n    \n    - Encoder：Q,K,V 來自輸入\n        \n    - Decoder：Q,K,V 來自輸出（含遮罩）\n        \n    - Encoder-Decoder Attention：Q 來自輸出，K,V 來自輸入\n        \n- 每層後加 Layer Normalization 和殘差連接（Residual Connection）","x":-1820,"y":2640,"width":336,"height":280,"color":"3"},
 		{"id":"73cc40ed01cdc4c4","type":"text","text":"一般 Attention（如 Encoder-Decoder Attention）則是 Q 來自 Decoder，K/V 來自 Encoder。","x":-2623,"y":2478,"width":333,"height":108,"color":"3"},
 		{"id":"75cda36064ecb970","type":"text","text":"計算過程：\n\n1. 計算 Q 與 K 的點積 → 得到權重矩陣\n    \n2. 權重矩陣經 softmax 得到注意力分佈\n    \n3. 權重 × V → 得到新的輸出向量（注意後的表示）\n    \n4. 加入 Position Embedding 保留字序","x":-2417,"y":2737,"width":333,"height":298,"color":"3"},
-		{"id":"30ce1c38b7dfcf43","type":"text","text":"","x":1457,"y":2168,"width":250,"height":60}
+		{"id":"c8c137e6ac989f91","type":"text","text":"- 像素級別預測，為每個像素分配類別標籤\n    \n- 分類：\n    \n    - Semantic Segmentation（語意分割）：如 FCN、U-Net\n        \n    - Instance Segmentation（實例分割）：如 Mask R-CNN","x":-4120,"y":1211,"width":303,"height":275,"color":"1"},
+		{"id":"a791003c14ba66fb","x":-2252,"y":-1262,"width":400,"height":102,"type":"file","file":"人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png"}
 	],
 	"edges":[
 		{"id":"b9569d203167e9b1","fromNode":"f06f5a8ef3565a56","fromSide":"right","toNode":"75a4cadf655b9eda","toSide":"left"},
@@ -316,6 +315,7 @@
 		{"id":"413cf49cd031113b","fromNode":"a4dd979a8eddb7cb","fromSide":"bottom","toNode":"73cc40ed01cdc4c4","toSide":"top"},
 		{"id":"3934a2feef804cf0","fromNode":"b74ecccc4ab68679","fromSide":"bottom","toNode":"3ae6936ca11feb8a","toSide":"top"},
 		{"id":"2e232dc4f46be23d","fromNode":"a4dd979a8eddb7cb","fromSide":"bottom","toNode":"75cda36064ecb970","toSide":"top"},
-		{"id":"13f55091c7e9a58f","fromNode":"b74ecccc4ab68679","fromSide":"bottom","toNode":"0d30d6219e0fcb65","toSide":"top"}
+		{"id":"13f55091c7e9a58f","fromNode":"b74ecccc4ab68679","fromSide":"bottom","toNode":"0d30d6219e0fcb65","toSide":"top"},
+		{"id":"462e75279cf40d95","fromNode":"49e8099e84723170","fromSide":"left","toNode":"a791003c14ba66fb","toSide":"right"}
 	]
 }
