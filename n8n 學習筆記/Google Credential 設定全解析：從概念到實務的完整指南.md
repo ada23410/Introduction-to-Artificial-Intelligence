@@ -1,13 +1,9 @@
 在串接 Google 相關服務（如 Google Drive、Sheets、Gmail、Calendar、Maps API、YouTube Data API 等）時，「**Credential（憑證）設定**」幾乎是所有開發者都會遇到的第一道門檻。許多初學者在設定時常出現困惑，例如：
 
 - OAuth 2.0、API Key、Service Account 有什麼差別？
-    
 - 為什麼 Token 會過期？
-    
 - 為什麼 API 回傳 403 / 401？
-    
 - 什麼情境該用哪一種 Credential？
-    
 
 本文將從**概念理解 → 類型比較 → 設定流程 → 實務情境 → 常見錯誤**，一步步說明 Google Credential 的設定與使用邏輯，協助你建立清楚、可維護的 Google API 串接策略。
 
@@ -21,13 +17,10 @@
 
 1. **你是誰（Authentication）**  
     → 驗證請求來源是否可信
-    
 2. **你能做什麼（Authorization）**  
     → 限制可存取的 API 與資料範圍（Scope）
-    
 3. **誰在負責（Accountability）**  
     → 每一次 API 呼叫都能被追蹤、控管、計費與撤銷
-    
 
 在 Google 生態系中，所有 API 呼叫幾乎都必須透過 Credential 才能進行。
 
