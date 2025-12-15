@@ -201,36 +201,26 @@ OAuth 2.0 雖然流程較複雜，但可以拆解為四個關鍵步驟：
 ### Step 2：啟用 API
 
 - 到「API 與服務 → 程式庫」
-    
 - 啟用需要的 API（如 Drive API、Sheets API）
-    
 
 ### Step 3：設定 OAuth 同意畫面
 
 - 設定應用名稱
-    
 - 設定使用者類型（Internal / External）
-    
 - 填寫必要資訊
-    
 - 設定 Scopes
-    
 
 ⚠️ 若是 External App，需注意審核問題。
 
 ### Step 4：建立 Credential
 
 - 類型選擇「OAuth client ID」
-    
 - 選擇應用類型（Web / Desktop / Mobile）
-    
 - 設定 Redirect URI
-    
 
 ### Step 5：取得 Client ID / Client Secret
 
 - 用於程式或自動化工具中
-    
 
 ---
 
@@ -239,39 +229,25 @@ OAuth 2.0 雖然流程較複雜，但可以拆解為四個關鍵步驟：
 ### ❌ 401 Unauthorized
 
 - Access Token 過期
-    
 - Token 未正確帶入 Header
-    
 
 ### ❌ 403 Forbidden
-
 - Scope 不足
-    
 - API 尚未啟用
-    
 - 沒有資源存取權限（例如 Drive 檔案未共享）
-    
 
 ### ❌ redirect_uri_mismatch
-
 - Redirect URI 與 Console 設定不一致
-    
 
 ### ❌ invalid_grant
-
 - Refresh Token 被撤銷
-    
 - Token 與 Client 不匹配
-    
-
 ---
 
 ## 六、實務建議與最佳做法
 
 1. **依情境選擇 Credential**
-    
     - 公開資料 → API Key
-        
     - 使用者資料 → OAuth 2.0
     - 後端系統 → Service Account
 2. **最小權限原則（Least Privilege）**
