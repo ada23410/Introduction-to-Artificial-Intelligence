@@ -157,7 +157,7 @@
 		{"id":"73cc40ed01cdc4c4","type":"text","text":"一般 Attention（如 Encoder-Decoder Attention）則是 Q 來自 Decoder，K/V 來自 Encoder。","x":-2623,"y":2478,"width":333,"height":108,"color":"3"},
 		{"id":"75cda36064ecb970","type":"text","text":"計算過程：\n\n1. 計算 Q 與 K 的點積 → 得到權重矩陣\n    \n2. 權重矩陣經 softmax 得到注意力分佈\n    \n3. 權重 × V → 得到新的輸出向量（注意後的表示）\n    \n4. 加入 Position Embedding 保留字序","x":-2417,"y":2737,"width":333,"height":298,"color":"3"},
 		{"id":"c8c137e6ac989f91","type":"text","text":"- 像素級別預測，為每個像素分配類別標籤\n    \n- 分類：\n    \n    - Semantic Segmentation（語意分割）：如 FCN、U-Net\n        \n    - Instance Segmentation（實例分割）：如 Mask R-CNN","x":-4120,"y":1211,"width":303,"height":275,"color":"1"},
-		{"id":"a791003c14ba66fb","x":-2252,"y":-1262,"width":400,"height":102,"type":"file","file":"人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png"}
+		{"id":"a791003c14ba66fb","type":"file","file":"人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png","x":-2252,"y":-1262,"width":400,"height":102}
 	],
 	"edges":[
 		{"id":"b9569d203167e9b1","fromNode":"f06f5a8ef3565a56","fromSide":"right","toNode":"75a4cadf655b9eda","toSide":"left"},

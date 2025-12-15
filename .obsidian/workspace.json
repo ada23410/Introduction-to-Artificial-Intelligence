@@ -32,17 +32,31 @@
               "state": {
                 "file": "n8n 學習筆記/n8n課程規劃.canvas",
                 "viewState": {
-                  "x": 1456.7667104981645,
-                  "y": 2529.0167914741146,
-                  "zoom": -0.7416572894909281
+                  "x": 1092,
+                  "y": 1170,
+                  "zoom": -2.3177704694137065
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "n8n課程規劃"
             }
+          },
+          {
+            "id": "6c24834bbb60facf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "n8n 學習筆記/Google Credential 設定全解析：從概念到實務的完整指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google Credential 設定全解析：從概念到實務的完整指南"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,10 +204,12 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "5ba430a8c3a7306c",
+  "active": "44af467c863af927",
   "lastOpenFiles": [
-    "Fintech Learning/Mobile.md",
     "n8n 學習筆記/n8n課程規劃.canvas",
+    "n8n 學習筆記/Google Credential 設定全解析：從概念到實務的完整指南.md",
+    "人工智慧導論/人工智慧導論.canvas",
+    "Fintech Learning/Mobile.md",
     "Fintech Learning/Digital Banking Systems Architecture.md",
     "Fintech Learning/Are bank branches heading towards extinction?.md",
     "Fintech Learning/Why is Digital Banking so Important?.md",
@@ -211,7 +227,6 @@
     "人工智慧導論/余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
     "人工智慧導論/image/neural-net.png",
     "人工智慧導論/image",
-    "人工智慧導論/人工智慧導論.canvas",
     "n8n 學習筆記",
     "人工智慧導論/image/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
     "人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png",
