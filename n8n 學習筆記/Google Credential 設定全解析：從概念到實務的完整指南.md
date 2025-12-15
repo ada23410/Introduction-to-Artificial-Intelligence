@@ -35,20 +35,17 @@ Google Cloud Platform（GCP）中最常見的 Credential 類型有三種：
 **API Key** 是一組字串，用來標示「是哪個專案在呼叫 API」。
 
 **特性**
-
 - 不涉及使用者身分
 - 不需要登入流程
 - 設定最簡單
 - 安全性最低（容易被盜用）
 
 **適合情境**
-
 - 公開資料
 - 不涉及個人帳戶資料
 - 只需要「識別專案」即可的 API
 
 **常見用途**
-
 - Google Maps JavaScript API
 - Places API
 - Geocoding API
@@ -62,21 +59,18 @@ Google Cloud Platform（GCP）中最常見的 Credential 類型有三種：
 **OAuth 2.0** 是目前 Google API 最主流的授權方式，適用於「**需要存取使用者資料**」的情境。
 
 **特性**
-
 - 需要使用者登入 Google 帳號
 - 使用者可明確同意授權範圍（Scopes）
 - 可撤銷、可更新
 - 安全性高、流程較複雜
 
 **適合情境**
-
 - Web App / Mobile App
 - SaaS 服務
 - 自動化工具（如 n8n、Zapier）
 - 任何「替使用者操作 Google 服務」的應用
 
 **常見用途**
-
 - Google Drive API
 - Google Sheets API
 - Gmail API
@@ -107,7 +101,6 @@ OAuth 2.0 的核心概念是：
 - Google Cloud 內部服務整合
 
 **常見用途**
-
 - BigQuery
 - Cloud Storage
 - 後端批次處理
