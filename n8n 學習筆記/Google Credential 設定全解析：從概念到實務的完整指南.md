@@ -81,35 +81,23 @@ Google Cloud Platform（GCP）中最常見的 Credential 類型有三種：
 **特性**
 
 - 需要使用者登入 Google 帳號
-    
 - 使用者可明確同意授權範圍（Scopes）
-    
 - 可撤銷、可更新
-    
 - 安全性高、流程較複雜
-    
 
 **適合情境**
 
 - Web App / Mobile App
-    
 - SaaS 服務
-    
 - 自動化工具（如 n8n、Zapier）
-    
 - 任何「替使用者操作 Google 服務」的應用
-    
 
 **常見用途**
 
 - Google Drive API
-    
 - Google Sheets API
-    
 - Gmail API
-    
 - Calendar API
-    
 
 OAuth 2.0 的核心概念是：
 
@@ -124,35 +112,23 @@ OAuth 2.0 的核心概念是：
 **特性**
 
 - 不需要使用者互動
-    
 - 使用 JSON Key 檔案
-    
 - 適合後端自動化
-    
 - 權限由管理者直接指定
-    
 
 **適合情境**
 
 - 後端服務
-    
 - Server-to-server
-    
 - CI/CD、自動報表、資料同步
-    
 - Google Cloud 內部服務整合
-    
 
 **常見用途**
 
 - BigQuery
-    
 - Cloud Storage
-    
 - 後端批次處理
-    
 - 企業內部系統
-    
 
 ⚠️ 若要存取「個人 Google Drive」，仍需額外設定檔案共享權限。
 
@@ -163,29 +139,20 @@ OAuth 2.0 的核心概念是：
 OAuth 2.0 雖然流程較複雜，但可以拆解為四個關鍵步驟：
 
 1. **使用者登入 Google**
-    
 2. **顯示授權畫面（Scopes）**
-    
 3. **取得 Authorization Code**
-    
 4. **交換 Access Token / Refresh Token**
-    
 
 其中：
 
 - **Access Token**：短效（通常 1 小時）
-    
 - **Refresh Token**：用來換新 Access Token
-    
 
 這樣的設計能確保：
 
 - Token 洩漏時影響有限
-    
 - 使用者可隨時撤銷授權
-    
 - 系統能長期穩定運作
-    
 
 ---
 
@@ -194,10 +161,7 @@ OAuth 2.0 雖然流程較複雜，但可以拆解為四個關鍵步驟：
 ### Step 1：建立或選擇專案
 
 - 進入 Google Cloud Console
-    
 - 建立一個專案（Project）
-    
-
 ### Step 2：啟用 API
 
 - 到「API 與服務 → 程式庫」
