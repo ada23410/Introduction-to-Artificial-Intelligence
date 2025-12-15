@@ -44,31 +44,21 @@ Google Cloud Platform（GCP）中最常見的 Credential 類型有三種：
 **特性**
 
 - 不涉及使用者身分
-    
 - 不需要登入流程
-    
 - 設定最簡單
-    
 - 安全性最低（容易被盜用）
-    
 
 **適合情境**
 
 - 公開資料
-    
 - 不涉及個人帳戶資料
-    
 - 只需要「識別專案」即可的 API
-    
 
 **常見用途**
 
 - Google Maps JavaScript API
-    
 - Places API
-    
 - Geocoding API
-    
 
 ⚠️ 不適合用於存取 Google Drive、Gmail、Calendar 等「使用者私有資料」。
 
