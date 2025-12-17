@@ -108,7 +108,6 @@
 		{"id":"2e9d536b364e298b","type":"text","text":"- 結構：\n    \n    - Agent、Environment、State（觀察）、Action（動作）、Reward（獎勵）","x":1154,"y":2467,"width":362,"height":134,"color":"4"},
 		{"id":"4660b9ba869b1dea","type":"text","text":"目標：最大化期望報酬E{Rₜ}","x":1154,"y":2621,"width":304,"height":60,"color":"4"},
 		{"id":"88c713bea2e4bfcf","type":"text","text":"- 類型：\n    \n    - Episodic 任務：具有結束條件（如迷宮、遊戲）\n        \n    - 持續任務：無自然結束，使用折扣回報（γ）來處理長期效益","x":1155,"y":2698,"width":304,"height":209,"color":"4"},
-		{"id":"d787f0fd7d3a0cab","type":"text","text":"探索與利用（Exploration vs. Explotation）\n探索：嘗試沒有那麼熟悉的環境，看看是不是其實更好。\n利用：選目前看起來更好的選擇。","x":1154,"y":3002,"width":380,"height":120,"color":"4"},
 		{"id":"a3998968150e8f3e","type":"text","text":"**Q-Learning**","x":1154,"y":3149,"width":180,"height":60,"color":"4"},
 		{"id":"c12408145dc025cb","type":"text","text":"**DQN(Deep Q Network)**","x":1154,"y":3232,"width":250,"height":60,"color":"4"},
 		{"id":"d3b720225391f03f","type":"text","text":"Continuing：持續性互動（e.g.股票市場）","x":1155,"y":2927,"width":304,"height":60,"color":"4"},
@@ -117,10 +116,6 @@
 		{"id":"07b63eca5ed35d4f","type":"text","text":"1. 初始化 Q-table（全部設為 0）\n2. 重複訓練回合：\n   2-1. 根據 ε-greedy 策略選一個動作 a\n   2-2. 執行動作 → 得到下一狀態 s' 和獎勵 r\n   2-3. 更新 Q(s, a)\n   2-4. 移動到 s'，重複直到 episode 結束\n3. 訓練完成後：從任一 s 查表，選擇 Q 最大的 a，就是最優策略！\n","x":2116,"y":3090,"width":414,"height":246,"color":"2"},
 		{"id":"590a8d3404ddde93","type":"text","text":"用 DNN 近似 Q-function，避免 Q-table 空間爆炸","x":1693,"y":3336,"width":250,"height":104,"color":"3"},
 		{"id":"d081b9d50275e516","type":"text","text":"Atari遊戲中表現超越人類（End-to-End）","x":1693,"y":3456,"width":250,"height":60,"color":"3"},
-		{"id":"bf171c56b5d00b80","type":"text","text":"定義：資料無標籤，模型自己找出內在結構與群聚。","x":1154,"y":1967,"width":340,"height":87,"color":"4"},
-		{"id":"79595395f8541430","type":"text","text":"方法：K-mean 聚類、自編碼器（autoencoder）。","x":1154,"y":2070,"width":362,"height":60,"color":"4"},
-		{"id":"1938db3ca08e341d","type":"text","text":"自監督學習（Self-supervised）: 模型自產標籤（e.g.旋轉圖像預測、Triplet Loss）","x":1154,"y":2147,"width":361,"height":93,"color":"4"},
-		{"id":"35805046c51d5f64","type":"text","text":"K-means Clustering","x":1154,"y":1886,"width":223,"height":60,"color":"4"},
 		{"id":"bc4fdbf434e74299","type":"text","text":"圖像類型\n**Rotation Prediction：**將圖片旋轉90度、180度、270度，讓模型判斷是旋轉了多少角度。\n**Exemplar：**用一張圖的不同裁切與模糊版本訓練模型學會。","x":1693,"y":1983,"width":250,"height":240,"color":"3"},
 		{"id":"bb005597a3b610d8","type":"text","text":"**Semi-supervised：**少量有標籤資料訓練模型 -> 預測無標籤 -> 回饋學習","x":1693,"y":2247,"width":250,"height":110,"color":"3"},
 		{"id":"297135b49c0b7f00","type":"text","text":"- 流程：\n    \n    1. 先以少量標註資料訓練模型\n        \n    2. 模型標記無標籤資料\n        \n    3. 把這些資料加入訓練集繼續訓練","x":1693,"y":2387,"width":347,"height":170,"color":"3"},
@@ -156,8 +151,16 @@
 		{"id":"0d30d6219e0fcb65","type":"text","text":"- **Encoder-Decoder 架構**：\n    \n    - Encoder：Q,K,V 來自輸入\n        \n    - Decoder：Q,K,V 來自輸出（含遮罩）\n        \n    - Encoder-Decoder Attention：Q 來自輸出，K,V 來自輸入\n        \n- 每層後加 Layer Normalization 和殘差連接（Residual Connection）","x":-1820,"y":2640,"width":336,"height":280,"color":"3"},
 		{"id":"73cc40ed01cdc4c4","type":"text","text":"一般 Attention（如 Encoder-Decoder Attention）則是 Q 來自 Decoder，K/V 來自 Encoder。","x":-2623,"y":2478,"width":333,"height":108,"color":"3"},
 		{"id":"75cda36064ecb970","type":"text","text":"計算過程：\n\n1. 計算 Q 與 K 的點積 → 得到權重矩陣\n    \n2. 權重矩陣經 softmax 得到注意力分佈\n    \n3. 權重 × V → 得到新的輸出向量（注意後的表示）\n    \n4. 加入 Position Embedding 保留字序","x":-2417,"y":2737,"width":333,"height":298,"color":"3"},
+<<<<<<< HEAD:人工智慧導論/人工智慧導論.canvas
 		{"id":"c8c137e6ac989f91","type":"text","text":"- 像素級別預測，為每個像素分配類別標籤\n    \n- 分類：\n    \n    - Semantic Segmentation（語意分割）：如 FCN、U-Net\n        \n    - Instance Segmentation（實例分割）：如 Mask R-CNN","x":-4120,"y":1211,"width":303,"height":275,"color":"1"},
 		{"id":"a791003c14ba66fb","type":"file","file":"人工智慧導論/image/1_gylmY6uHbOAabYnOzhTZkA.png","x":-2252,"y":-1262,"width":400,"height":102}
+=======
+		{"id":"d787f0fd7d3a0cab","type":"text","text":"探索與利用（Exploration vs. Explotation）\n探索：嘗試沒有那麼熟悉的環境，看看是不是其實更好。\n利用：選目前看起來更好的選擇。","x":1154,"y":3006,"width":380,"height":120,"color":"4"},
+		{"id":"35805046c51d5f64","type":"text","text":"K-means Clustering","x":1154,"y":1852,"width":223,"height":60,"color":"4"},
+		{"id":"bf171c56b5d00b80","type":"text","text":"定義：資料無標籤，模型自己找出內在結構與群聚。","x":1154,"y":1940,"width":340,"height":87,"color":"4"},
+		{"id":"79595395f8541430","type":"text","text":"方法：K-mean 聚類、自編碼器（autoencoder）。","x":1154,"y":2043,"width":362,"height":60,"color":"4"},
+		{"id":"1938db3ca08e341d","type":"text","text":"自監督學習（Self-supervised）: 模型自產標籤（e.g.旋轉圖像預測、Triplet Loss）","x":1154,"y":2130,"width":361,"height":93,"color":"4"}
+>>>>>>> pull all notes:Artificial intelligence/人工智慧導論.canvas
 	],
 	"edges":[
 		{"id":"b9569d203167e9b1","fromNode":"f06f5a8ef3565a56","fromSide":"right","toNode":"75a4cadf655b9eda","toSide":"left"},

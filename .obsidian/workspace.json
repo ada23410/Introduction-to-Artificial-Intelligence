@@ -1,13 +1,14 @@
 {
   "main": {
-    "id": "5083794c2bec45ff",
+    "id": "97f5c0644697e45a",
     "type": "split",
     "children": [
       {
-        "id": "4c6789aec3b18307",
+        "id": "4237631c74fe7e62",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "09e6e3f8f87da949",
             "type": "leaf",
             "state": {
@@ -43,16 +44,27 @@
           },
           {
             "id": "6c24834bbb60facf",
+=======
+            "id": "526b9bc1d0c5b966",
+>>>>>>> pull all notes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "n8n 學習筆記/Google Credential 設定全解析：從概念到實務的完整指南.md",
+=======
+                "file": "資訊安全技術應用實務.md",
+>>>>>>> pull all notes
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Google Credential 設定全解析：從概念到實務的完整指南"
+=======
+              "title": "資訊安全技術應用實務"
+>>>>>>> pull all notes
             }
           }
         ],
@@ -62,15 +74,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "03e83e89232a2b45",
+    "id": "ed9971913864144e",
     "type": "split",
     "children": [
       {
-        "id": "2f2c17aee0f39f88",
+        "id": "1d7b098a119596ce",
         "type": "tabs",
         "children": [
           {
-            "id": "44af467c863af927",
+            "id": "56c652024454d841",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -83,7 +95,7 @@
             }
           },
           {
-            "id": "58fe42b8d521f75c",
+            "id": "789023ba7a1fb4c3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -96,40 +108,40 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜尋"
             }
           },
           {
-            "id": "4d84fde4a20588c4",
+            "id": "304b07edd93e44d3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "書籤"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 220.5
   },
   "right": {
-    "id": "4175ef61c28325ea",
+    "id": "5da174bb0667074c",
     "type": "split",
     "children": [
       {
-        "id": "d8698076adfadbba",
+        "id": "26d84cdd4ba56314",
         "type": "tabs",
         "children": [
           {
-            "id": "4e67864419b7dce9",
+            "id": "cf9dd388db5a9788",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Artificial Intelantgent/人工智慧導論.canvas",
+                "file": "歡迎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,25 +151,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 人工智慧導論"
+              "title": "歡迎 的反向連結"
             }
           },
           {
-            "id": "40e6ba2d51c535f5",
+            "id": "ace79076c5183ac3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "歡迎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "歡迎 的對外連結"
             }
           },
           {
-            "id": "69f8b222639935c7",
+            "id": "d2ab89fb0965c67e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -168,22 +180,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "標籤"
             }
           },
           {
-            "id": "ec493d056b8fa0fb",
+            "id": "83cf52a5716adecf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "歡迎.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "歡迎 的大綱"
             }
           }
         ]
@@ -204,6 +216,7 @@
       "command-palette:開啟命令面板": false
     }
   },
+<<<<<<< HEAD
   "active": "44af467c863af927",
   "lastOpenFiles": [
     "n8n 學習筆記/n8n課程規劃.canvas",
@@ -243,5 +256,25 @@
     "人工智慧導論.md",
     "Welcome.md",
     "create a link.md"
+=======
+  "active": "526b9bc1d0c5b966",
+  "lastOpenFiles": [
+    "數位碳盤查.md",
+    "資訊安全技術應用實務.md",
+    "GAI.md",
+    "Artificial intelligence/人工智慧導論.canvas",
+    "余紀忠基金會【人本AI時代 - 跨校圓桌論壇】.md",
+    "20250508.md",
+    "Artificial intelligence/neural-net.png",
+    "Artificial intelligence/autoencoders.png",
+    "Artificial intelligence/Architecture-of-CNN-by-LeCun-et-al-LeNet5.png",
+    "Artificial intelligence/2025-04-16.md",
+    "Artificial intelligence/20151279IdTypfubWX.png",
+    "Artificial intelligence/1_gylmY6uHbOAabYnOzhTZkA.png",
+    "Artificial intelligence",
+    "歡迎.md",
+    "Introduction-to-Artificial-Intelligence/Artificial intelligence/人工智慧導論.canvas",
+    "建立鏈接.md"
+>>>>>>> pull all notes
   ]
 }

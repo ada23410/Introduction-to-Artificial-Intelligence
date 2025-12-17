@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "pdfExportSettings": {
     "pageSize": "Letter",
@@ -7,3 +8,6 @@
   },
   "attachmentFolderPath": "./attachments"
 }
+=======
+{}
+>>>>>>> pull all notes
