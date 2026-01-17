@@ -11,7 +11,7 @@
 
 ## 一、什麼是 Google Credential？
 
-**Google Credential** 是 Google 用來驗證「你是誰」以及「你可以做什麼」的一組身分識別與授權機制。
+**Google Credential** 是 Google 用來驗證「你是誰」以及「你可以做什麼」的一組身分識別與授權機制。haha
 
 簡單來說，它解決了三個核心問題：
 
